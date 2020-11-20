@@ -1,0 +1,75 @@
+#randomTruth{
+    font-size: 0px
+}
+#randomDare{
+    font-size: 0px
+}
+#number{
+    font-size: 30px
+}
+#a{
+    width: 50;
+    height: 50px;
+}
+
+#b{
+    width: 50;
+    height: 50px;
+}
+
+#hasil{
+    font-size: 30px
+    
+}
+
+#hasil2{
+    font-size: 30px
+
+}
+
+.body {
+    background-color:powderblue;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-bottom: 10px;
+
+
+}
+
+.number{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+  background-color: #cc8e1a; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 120px;
+}
+
+#jmlPlayer{
+    width: 40px;
+}
+#c{
+    height: 30px;
+    color: rgb(6, 6, 24);
+    background-color: rgb(151, 201, 201);
+    display: inline;
+    margin-top: 5px;
+}
+#number{
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: larger;
+}

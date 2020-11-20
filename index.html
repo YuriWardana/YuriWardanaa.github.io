@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <link href="/style.css" rel="stylesheet" />
+  <audio id="backSound" src="/alexander-nakarada-fast-feel-banana-peel.mp3"></audio> 
+  <audio id="backSound2" src="/Siddhartha_-_02_-_Wild_Purple_Flowers.mp3"></audio>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthOrDare</title>
+</head>
+<body class="body" style="background-color:powderblue;">
+  <script src="/index.js" type="text/javascript"></script>
+  <nav>FINAL PROJECT</nav>
+  <H1>Truth Or Dare Games</H1> 
+  <h3>Games ini sangat mudah untuk dimainkan dan menyenangkan walau terkadang menyebalkan<br>
+     But It just a game So are you <b>Dare</b> enough to play or to Reveal your <b>Truth</b> :)</h3>
+    <p>Cara Bermain :</p>
+      <ol>
+        <li>Pemain akan bermain secara bergantian sesuai arah jarum jam / dengan metode lain(pilih sendiri)</li>
+        <li>Setiap pemain terpilih akan di berikan kesempatan untuk memilih antara <b>Truth</b> Or <b>Dare</b></li>
+        <li>Pemain <b>WAJIB</b> melakukan perintah sesuai Card yang mereka pilih dengan cara meng-Klik Tombol Pilihan peman tersebut</li>
+        <li><b>WAJIB</b> input Jumlah pemain dan Mohon di-INGAT nomer urutan pemain</li>
+        <li>Giliran pemain bisa dipilih sesuai arah jarum jam, atau random dengan cara Klik tombol<b>"sekarang giliran player nomer"</b></li>
+      </ol>
+      <h3>Selamat Bermain</h3>
+      <p>Input jumlah Pemain</p>
+      <input type ="text" name="jmlPlayer" id ="jmlPlayer" auto complete ="off" required><br>
+      <button id="c"  padding = 10px onclick="randomPlayer();">sekarang giliran player nomer ==></button>
+      <p id="number" class="number"></p>
+    
+
+    <p id="randomTruth"></p>
+    <p id="hasil" class ="number"></p>
+    <button id="a" class ="button " onclick="randomTruth();">TRUTH</button>
+
+
+  <p id="randomDare"></p>
+  <p id="hasil2" class = "number"></p>
+  <button id="b" class ="button "onclick="randomDare();">DARE</button>
+
+
+</body>
+</html>
